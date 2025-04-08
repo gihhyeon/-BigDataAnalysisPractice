@@ -29,4 +29,5 @@ print(mydict.get('han'))
 
 
 
+
 # 전체 항목 삭제 - 딕셔너리명.clear()
