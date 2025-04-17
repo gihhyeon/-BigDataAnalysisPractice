@@ -22,8 +22,8 @@ btn1 = Button(window, text="클릭", command=clicked)
 btn2 = Button(window, text="초기화", command=erased)
 
 #부착하기
-l1.pack
-btn1.pack
-btn2.pack
+l1.pack()
+btn1.pack()
+btn2.pack()
 
 window.mainloop()
