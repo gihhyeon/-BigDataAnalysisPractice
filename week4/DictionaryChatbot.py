@@ -4,11 +4,11 @@ query = input("프로그래밍 언어 입력 : ")
 query = query.lower()   # 소문자로
 
 if "c" in query:
-    print("C언어는 1972년에 태어났어요.");
+    print("C언어는 1972년에 태어났어요.")
 elif "java" in query:
-    print("Java는 1995년에 태어났어요.");
+    print("Java는 1995년에 태어났어요.")
 elif "python" in query:
-    print("Python은 1991년에 태어났어요.");
+    print("Python은 1991년에 태어났어요.")
 else:
     print("등록되지 않은 언어입니다.")
 

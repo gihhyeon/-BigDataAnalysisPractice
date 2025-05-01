@@ -24,9 +24,11 @@ def TryFunc():  # [도전] 버튼을 눌렀을 때 동작할 함수
     userEntry.delete(0, 3)
 
 def ResetFunc():    # [초기화] 버튼을 눌렀을 때 동작할 함수
+    global cnt, answer
     # 도전 횟수 초기화
-
+    cnt = 0
     # 정답 초기화(재설정)
+    answer = random.randint(1, 100)
 
     resultLabel["text"] = "초기화 되었으므로 다시 도전하세요"
 
